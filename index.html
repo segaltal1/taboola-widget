@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taboola recommendations - Tal Segal</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body onload="onInit()">
+<main class="layout">
+    <section class="demo-article">
+        <div>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, possimus at. Accusamus aperiam modi
+                accusantium minus commodi laudantium perferendis! Enim inventore aliquid odit commodi possimus deserunt
+                obcaecati, reiciendis nisi itaque ullam provident et aperiam autem exercitationem adipisci explicabo
+                aliquam! Pariatur vero iste alias repellat ea et dolore aperiam, est impedit.</p>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <img src="assets/img/placeholder.jpg" alt="Placeholder image">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis voluptatum natus minima aut neque
+                i dignissimos accusantium sapiente ducimus.
+                Voluptates, vitae aut. Consequatur dolores recusandae labore ipsa ut aspernatur a obcaecati nobis
+                commodi beatae, sit, amet omnis nihil.</p>
+        </div>
+    </section>
+
+    <section class="recs-container">
+        <header>
+            <div class="feed-logo"></div>
+        </header>
+        <div class="error-container" hidden>
+            Error loading recommendations...
+        </div>
+        <div class="widget-container"></div>
+    </section>
+</main>
+
+<script src="js/services/api-service.js"></script>
+<script src="js/services/widget-service.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
